@@ -1,0 +1,71 @@
+  ::selection {
+		background-color: pink;
+		color: white;
+	}
+        
+	::-moz-selection {
+		background-color: pink;
+		color: white;
+	}
+	
+	
+	.nav li::active{
+		text-decoration: underline;
+	}
+	
+	
+	.fancybox-thumb {
+		background: no-repeat;
+		width: 200px;
+		height: 200px;
+		display: inline-block;
+		background-position: center;
+		margin: 15px;
+		border-radius: 6px;
+		border: 1px solid #dddddd;
+		background-color: rgb(255,255,255);
+		box-shadow: pink 1px 1px;
+		text-align: center;
+
+	}
+		
+	body {
+		background-color: pink;
+		line-height: 1;
+	}
+
+	.nav-justified {
+		width: 83%
+	}
+
+	ul {
+		padding: inherit;
+		font-size: 14px;
+	}
+	.view {
+		margin right: 10px;
+	}
+
+   .jumbotron {
+		text-align: left;
+        background-color: white;
+		width: 600 px;
+		margin: 20px 50px;
+		box-shadow: 20px 0px 28px -15px rgba(201,207,210,0.5);
+	}
+
+	.jumbotron h1{
+		font-size: 20px;
+	}
+
+	.jumbotron p {
+		font-size: 14px;
+	}
+
+
+	.container .jumbotron {
+		width: 600px;
+		margin: 20px 100px;
+	}
+	
+	
